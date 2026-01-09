@@ -1,0 +1,81 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '4.0.1'
+	id 'io.spring.dependency-management' version '1.1.7'
+	// using the lombok plugin
+  id("io.freefair.lombok") version "9.1.0"
+	id 'maven-publish'
+	id 'org.springframework.cloud.contract' version '5.0.0'
+}
+
+group = 'com.nodoit'
+version = '0.0.1-SNAPSHOT'
+description = 'Demo project for Spring Boot'
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(17)
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+// Spring web starter
+// Cloud Starter (contract verifier)
+dependencies {
+	annotationProcessor("org.projectlombok:lombok:1.18.42")
+	testAnnotationProcessor("org.projectlombok:lombok:1.18.42")
+	implementation('org.springframework.boot:spring-boot-starter-web')  
+	testImplementation('org.springframework.cloud:spring-cloud-starter-contract-verifier')
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+publishing {
+    publications {
+        stubs(MavenPublication) {
+            artifact project.tasks.named('verifierStubsJar')
+        }
+    }
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            groupId = 'com.nodoit'
+            artifactId = 'contract-rest-service'
+            version = '1.0.0-SNAPSHOT'
+
+            artifact jar // publishes the main JAR artifact
+        }
+    }
+    repositories {
+        mavenLocal()
+        // Define remote repositories here
+    }
+}
+
+dependencyManagement {
+  imports {
+    mavenBom "org.springframework.cloud:spring-cloud-dependencies:2025.1.0"
+  }
+}
+
+contracts {
+  // To have the same contract folder as Maven. In Gradle would default to
+  // src/contractTest/resources/contracts
+  contractsDslDir = file("src/test/resources/contracts")
+  packageWithBaseClasses = 'com.nodoit.hello' 
+ 
+  baseClassMappings {
+		baseClassMapping(
+				"com.nodoit.hello",
+				"com.nodoit.hello.HelloBase"
+		)
+	}
+}
+
+contractTest {
+  useJUnitPlatform()
+}

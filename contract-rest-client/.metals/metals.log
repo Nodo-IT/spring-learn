@@ -1,0 +1,282 @@
+2026.01.09 10:27:44 INFO  Started: Metals version 1.6.4 in folders '/home/jgomez/Desktop/spring-learn/contract-rest-client' for client Visual Studio Code 1.107.1.
+2026.01.09 10:27:45 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.09 10:27:45 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/ContractRestClientApplication.java. Using fallback presentation compiler.
+2026.01.09 10:27:48 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/ContractRestClientApplication.java. Using fallback presentation compiler.
+Jan 09, 2026 10:27:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 09, 2026 10:27:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.09 10:27:56 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/ContractRestClientApplication.java. Using fallback presentation compiler.
+2026.01.09 10:33:17 INFO  running '/home/jgomez/Desktop/spring-learn/contract-rest-client/gradlew --stacktrace --console=plain --init-script /tmp/metals13402584153790215727/init-script.gradle bloopInstall'
+2026.01.09 10:33:18 INFO  > Task :configureBloopInstall
+2026.01.09 10:33:18 INFO  > Task :bloopInstall
+2026.01.09 10:33:18 INFO  
+2026.01.09 10:33:18 INFO  [Incubating] Problems report is available at: file:///home/jgomez/Desktop/spring-learn/contract-rest-client/build/reports/problems/problems-report.html
+2026.01.09 10:33:18 INFO  
+2026.01.09 10:33:18 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+2026.01.09 10:33:18 INFO  
+2026.01.09 10:33:18 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2026.01.09 10:33:18 INFO  
+2026.01.09 10:33:18 INFO  For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2026.01.09 10:33:18 INFO  
+2026.01.09 10:33:18 INFO  BUILD SUCCESSFUL in 1s
+2026.01.09 10:33:18 INFO  2 actionable tasks: 2 executed
+2026.01.09 10:33:18 INFO  Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html
+2026.01.09 10:33:18 INFO  time: ran 'gradle bloopInstall' in 1.42s
+2026.01.09 10:33:18 INFO  Attempting to connect to the build server...
+2026.01.09 10:33:18 INFO  Found a Bloop server running
+2026.01.09 10:33:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/bsp.trace.json or /home/jgomez/.cache/metals/bsp.trace.json
+2026.01.09 10:33:18 INFO  time: Connected to build server in 0.22s
+2026.01.09 10:33:18 INFO  Connected to Build server: Bloop v2.0.17
+2026.01.09 10:33:20 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.09 10:33:24 INFO  time: indexed workspace in 5.21s
+2026.01.09 10:33:24 INFO  compiling contract-rest-client (1 java source)
+2026.01.09 10:33:24 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:33:24 INFO  time: compiled contract-rest-client in 0.65s
+2026.01.09 10:36:06 INFO  running '/home/jgomez/Desktop/spring-learn/contract-rest-client/gradlew --stacktrace --console=plain --init-script /tmp/metals15401591521548537110/init-script.gradle bloopInstall'
+Jan 09, 2026 10:36:07 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.09 10:36:07 INFO  > Task :configureBloopInstall
+2026.01.09 10:36:07 INFO  > Task :bloopInstall FAILED
+2026.01.09 10:36:07 ERROR 
+2026.01.09 10:36:07 INFO  
+2026.01.09 10:36:07 ERROR FAILURE: Build failed with an exception.
+2026.01.09 10:36:07 ERROR 
+2026.01.09 10:36:07 ERROR * What went wrong:
+2026.01.09 10:36:07 ERROR Execution failed for task ':bloopInstall'.
+2026.01.09 10:36:07 INFO  [Incubating] Problems report is available at: file:///home/jgomez/Desktop/spring-learn/contract-rest-client/build/reports/problems/problems-report.html
+2026.01.09 10:36:07 ERROR > Could not resolve all files for configuration ':testCompileClasspath'.
+2026.01.09 10:36:07 ERROR    > Could not find org.springframework.cloud:spring-cloud-starter-contract-stub-runner:.
+2026.01.09 10:36:07 ERROR      Required by:
+2026.01.09 10:36:07 ERROR          root project 'contract-rest-client'
+2026.01.09 10:36:07 ERROR 
+2026.01.09 10:36:07 ERROR * Try:
+2026.01.09 10:36:07 ERROR > Run with --info or --debug option to get more log output.
+2026.01.09 10:36:07 ERROR > Run with --scan to generate a Build Scan (powered by Develocity).
+2026.01.09 10:36:07 ERROR > Get more help at https://help.gradle.org.
+2026.01.09 10:36:07 ERROR 
+2026.01.09 10:36:07 ERROR * Exception is:
+2026.01.09 10:36:07 ERROR org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':bloopInstall'.
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:135)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:288)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:133)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:121)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026.01.09 10:36:07 INFO  
+2026.01.09 10:36:07 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+2026.01.09 10:36:07 INFO  
+2026.01.09 10:36:07 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2026.01.09 10:36:07 INFO  
+2026.01.09 10:36:07 INFO  For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2026.01.09 10:36:07 INFO  2 actionable tasks: 2 executed
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.plan.DefaultNodeExecutor.executeLocalTaskNode(DefaultNodeExecutor.java:55)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.plan.DefaultNodeExecutor.execute(DefaultNodeExecutor.java:34)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:339)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:84)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:339)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:328)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+2026.01.09 10:36:07 ERROR 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:47)
+2026.01.09 10:36:07 ERROR Caused by: org.gradle.api.internal.artifacts.ivyservice.TypedResolveException: Could not resolve all files for configuration ':testCompileClasspath'.
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.artifacts.ResolveExceptionMapper.mapFailure(ResolveExceptionMapper.java:73)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.artifacts.ResolveExceptionMapper.mapFailures(ResolveExceptionMapper.java:65)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$DefaultResolutionHost.consolidateFailures(DefaultConfiguration.java:1740)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.artifacts.configurations.ResolutionHost.rethrowFailuresAndReportProblems(ResolutionHost.java:75)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.artifacts.configurations.ResolutionBackedFileCollection.maybeThrowResolutionFailures(ResolutionBackedFileCollection.java:86)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.artifacts.configurations.ResolutionBackedFileCollection.visitContents(ResolutionBackedFileCollection.java:76)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(AbstractFileCollection.java:361)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.visitContents(DefaultConfiguration.java:490)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.AbstractFileCollection.visitStructure(AbstractFileCollection.java:361)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.CompositeFileCollection.lambda$visitContents$0(CompositeFileCollection.java:112)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.collections.UnpackingVisitor.add(UnpackingVisitor.java:66)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.collections.DefaultConfigurableFileCollection$UnresolvedItemsCollector.visitContents(DefaultConfigurableFileCollection.java:635)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.collections.DefaultConfigurableFileCollection.visitChildren(DefaultConfigurableFileCollection.java:448)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.CompositeFileCollection.visitContents(CompositeFileCollection.java:112)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.AbstractFileCollection.getFiles(AbstractFileCollection.java:124)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:165)
+2026.01.09 10:36:07 ERROR 	at scala.collection.convert.Wrappers$JIterableWrapper.iterator(Wrappers.scala:60)
+2026.01.09 10:36:07 ERROR 	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+2026.01.09 10:36:07 ERROR 	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+2026.01.09 10:36:07 ERROR 	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+2026.01.09 10:36:07 ERROR 	at scala.collection.generic.Growable.$plus$plus$eq(Growable.scala:62)
+2026.01.09 10:36:07 ERROR 	at scala.collection.generic.Growable.$plus$plus$eq$(Growable.scala:53)
+2026.01.09 10:36:07 ERROR 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:184)
+2026.01.09 10:36:07 ERROR 	at scala.collection.mutable.ListBuffer.$plus$plus$eq(ListBuffer.scala:47)
+2026.01.09 10:36:07 ERROR 	at scala.collection.TraversableLike.to(TraversableLike.scala:786)
+2026.01.09 10:36:07 ERROR 	at scala.collection.TraversableLike.to$(TraversableLike.scala:783)
+2026.01.09 10:36:07 ERROR 	at scala.collection.AbstractTraversable.to(Traversable.scala:108)
+2026.01.09 10:36:07 ERROR 	at scala.collection.TraversableOnce.toList(TraversableOnce.scala:350)
+2026.01.09 10:36:07 ERROR 	at scala.collection.TraversableOnce.toList$(TraversableOnce.scala:350)
+2026.01.09 10:36:07 ERROR 	at scala.collection.AbstractTraversable.toList(Traversable.scala:108)
+2026.01.09 10:36:07 ERROR 	at bloop.integrations.gradle.model.BloopConverter.toBloopConfig(BloopConverter.scala:299)
+2026.01.09 10:36:07 ERROR 	at bloop.integrations.gradle.tasks.ScalaJavaInstall$.generateBloopConfiguration(BloopInstallTask.scala:104)
+2026.01.09 10:36:07 ERROR 	at bloop.integrations.gradle.tasks.ScalaJavaInstall$.$anonfun$install$1(BloopInstallTask.scala:88)
+2026.01.09 10:36:07 ERROR 	at bloop.integrations.gradle.tasks.ScalaJavaInstall$.$anonfun$install$1$adapted(BloopInstallTask.scala:80)
+2026.01.09 10:36:07 ERROR 	at scala.collection.immutable.Set$Set2.foreach(Set.scala:181)
+2026.01.09 10:36:07 ERROR 	at bloop.integrations.gradle.tasks.ScalaJavaInstall$.install(BloopInstallTask.scala:80)
+2026.01.09 10:36:07 ERROR 	at bloop.integrations.gradle.tasks.BloopInstallTask.runBloopPlugin(BloopInstallTask.scala:65)
+2026.01.09 10:36:07 ERROR 	at bloop.integrations.gradle.tasks.BloopInstallTask.run(BloopInstallTask.scala:41)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:252)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:237)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:220)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:203)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:170)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:68)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:38)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:39)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:28)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.Either$Right.fold(Either.java:176)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:64)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:35)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:62)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:40)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:76)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:45)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:136)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:61)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:38)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:297)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:44)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:31)
+2026.01.09 10:36:07 ERROR 	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+2026.01.09 10:36:07 ERROR 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:132)
+2026.01.09 10:36:07 ERROR 	... 30 more
+2026.01.09 10:36:07 ERROR Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find org.springframework.cloud:spring-cloud-starter-contract-stub-runner:.
+2026.01.09 10:36:07 ERROR Required by:
+2026.01.09 10:36:07 ERROR     root project 'contract-rest-client'
+2026.01.09 10:36:07 ERROR 
+2026.01.09 10:36:07 ERROR 
+2026.01.09 10:36:07 ERROR BUILD FAILED in 1s
+2026.01.09 10:36:08 INFO  time: ran 'gradle bloopInstall' in 1.81s
+2026.01.09 10:36:08 ERROR Gradle command failed: /home/jgomez/Desktop/spring-learn/contract-rest-client/gradlew --stacktrace --console=plain --init-script /tmp/metals15401591521548537110/init-script.gradle bloopInstall
+2026.01.09 10:36:08 INFO  Disconnecting from Bloop session...
+2026.01.09 10:36:08 INFO  Shut down connection with build server.
+2026.01.09 10:36:08 INFO  Attempting to connect to the build server...
+2026.01.09 10:36:08 INFO  Found a Bloop server running
+2026.01.09 10:36:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/bsp.trace.json or /home/jgomez/.cache/metals/bsp.trace.json
+2026.01.09 10:36:08 INFO  time: Connected to build server in 0.17s
+2026.01.09 10:36:08 INFO  Connected to Build server: Bloop v2.0.17
+2026.01.09 10:36:13 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-client/jar:file:/home/jgomez/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/11.0.15/586cea787243bb374cecdc01675423f056e518d5/tomcat-embed-core-11.0.15-sources.jar!/org/apache/catalina/authenticator/jaspic/PersistentProviderRegistrations.java]
+2026.01.09 10:36:13 INFO  Java indexer failed with and exception. (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/.reports/metals-full/2026-01-09/r_failed-idex-java_10-36-13-809.md")
+2026.01.09 10:36:13 INFO  time: indexed workspace in 5.59s
+2026.01.09 10:36:14 INFO  skipping build import with status 'Installed'
+2026.01.09 10:36:25 INFO  skipping build import with status 'Installed'
+2026.01.09 10:39:32 INFO  skipping build import with status 'Installed'
+Jan 09, 2026 10:53:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 09, 2026 10:56:12 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 09, 2026 10:56:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 09, 2026 10:56:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 09, 2026 10:57:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.09 11:35:24 INFO  QDox parse error in file:///home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/.reports/metals-full/2026-01-09/r_qdox-error_(contract-rest-client)_11-35-24-823.md")
+2026.01.09 11:35:24 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java]
+2026.01.09 11:35:24 INFO  QDox parse error in file:///home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/.reports/metals-full/2026-01-09/r_qdox-error_(contract-rest-client)_11-35-24-823.md")
+2026.01.09 11:35:24 INFO  compiling contract-rest-client (1 java source)
+2026.01.09 11:35:24 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 11:35:25 INFO  time: compiled contract-rest-client in 1.01s
+2026.01.09 11:35:26 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java]
+2026.01.09 11:35:26 INFO  empty definition using pc, found symbol in pc: _empty_/AllArgsConstructor# (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/.reports/metals-full/2026-01-09/r_empty-definition_(contract-rest-client)_11-35-26-253.md")
+2026.01.09 11:35:31 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java]
+2026.01.09 11:35:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/.reports/metals-full/2026-01-09/r_empty-definition_(contract-rest-client)_11-35-31-675.md")
+2026.01.09 11:35:31 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java]
+2026.01.09 11:35:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/.reports/metals-full/2026-01-09/r_empty-definition_(contract-rest-client)_11-35-31-999.md")
+2026.01.09 11:35:32 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java]
+2026.01.09 11:35:32 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-client/.metals/.reports/metals-full/2026-01-09/r_empty-definition_(contract-rest-client)_11-35-32-072.md")
+2026.01.09 11:35:34 INFO  compiling contract-rest-client (1 java source)
+2026.01.09 11:35:34 WARN  Invalid text document uri received from build server: file:///home/jgomez/.local/share/scalacli/bloop/warning:%5Boptions%5D%20system%20modules%20path%20not%20set%20in%20conjunction%20with%20-source%2017%0A/home/jgomez/Desktop/spring-learn/contract-rest-client/src/main/java/com/nodoit/contract_rest_client/model/Person.java
+2026.01.09 11:35:34 INFO  BSP server:  error: package lombok does not exist
+2026.01.09 11:35:34 WARN  javac exited with exit code 1
+2026.01.09 11:35:34 INFO  time: compiled contract-rest-client in 0.78s
+2026.01.09 11:36:18 INFO  Shutting down server
+2026.01.09 11:36:18 INFO  shutting down Metals
+2026.01.09 11:36:18 INFO  Shut down connection with build server.
+2026.01.09 11:36:18 INFO  Exiting server

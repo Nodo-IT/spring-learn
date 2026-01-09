@@ -1,0 +1,136 @@
+2026.01.09 10:27:12 INFO  Started: Metals version 1.6.4 in folders '/home/jgomez/Desktop/spring-learn/contract-rest-service' for client Visual Studio Code 1.107.1.
+2026.01.09 10:27:13 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.09 10:27:14 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/ContractRestServiceApplicationTests.java. Using fallback presentation compiler.
+2026.01.09 10:27:14 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/ContractRestServiceApplicationTests.java. Using fallback presentation compiler.
+2026.01.09 10:27:20 INFO  running '/home/jgomez/Desktop/spring-learn/contract-rest-service/gradlew --stacktrace --console=plain --init-script /tmp/metals14612892272894737965/init-script.gradle bloopInstall'
+2026.01.09 10:27:21 INFO  Starting a Gradle Daemon, 1 incompatible and 2 stopped Daemons could not be reused, use --status for details
+Jan 09, 2026 10:27:21 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.09 10:27:21 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/ContractRestServiceApplicationTests.java. Using fallback presentation compiler.
+2026.01.09 10:27:24 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/ContractRestServiceApplicationTests.java. Using fallback presentation compiler.
+2026.01.09 10:27:24 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/ContractRestServiceApplicationTests.java. Using fallback presentation compiler.
+2026.01.09 10:27:24 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/ContractRestServiceApplicationTests.java. Using fallback presentation compiler.
+2026.01.09 10:27:27 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/ContractRestServiceApplicationTests.java. Using fallback presentation compiler.
+2026.01.09 10:27:44 INFO  > Task :configureBloopInstall
+2026.01.09 10:27:46 INFO  > Task :bloopInstall
+2026.01.09 10:27:46 INFO  
+2026.01.09 10:27:46 INFO  [Incubating] Problems report is available at: file:///home/jgomez/Desktop/spring-learn/contract-rest-service/build/reports/problems/problems-report.html
+2026.01.09 10:27:46 INFO  
+2026.01.09 10:27:46 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+2026.01.09 10:27:46 INFO  
+2026.01.09 10:27:46 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2026.01.09 10:27:46 INFO  
+2026.01.09 10:27:46 INFO  For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2026.01.09 10:27:46 INFO  
+2026.01.09 10:27:46 INFO  BUILD SUCCESSFUL in 25s
+2026.01.09 10:27:46 INFO  2 actionable tasks: 2 executed
+2026.01.09 10:27:46 INFO  Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html
+2026.01.09 10:27:46 INFO  time: ran 'gradle bloopInstall' in 25s
+2026.01.09 10:27:46 INFO  Attempting to connect to the build server...
+2026.01.09 10:27:46 INFO  No running Bloop server found, starting one.
+2026.01.09 10:27:51 INFO  Starting compilation server
+2026.01.09 10:27:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jgomez/Desktop/spring-learn/contract-rest-service/.metals/bsp.trace.json or /home/jgomez/.cache/metals/bsp.trace.json
+2026.01.09 10:27:52 INFO  time: Connected to build server in 6.21s
+2026.01.09 10:27:52 INFO  Connected to Build server: Bloop v2.0.17
+2026.01.09 10:27:52 INFO  time: Imported build in 0.12s
+2026.01.09 10:27:54 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.09 10:28:09 INFO  time: indexed workspace in 16s
+2026.01.09 10:28:09 INFO  compiling contract-rest-service (1 java source)
+2026.01.09 10:28:09 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:28:09 INFO  compiling contract-rest-service-test (1 java source)
+2026.01.09 10:28:10 INFO  time: compiled contract-rest-service in 1.21s
+2026.01.09 10:28:10 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:28:10 INFO  time: compiled contract-rest-service-test in 0.76s
+2026.01.09 10:28:31 INFO  running '/home/jgomez/Desktop/spring-learn/contract-rest-service/gradlew --stacktrace --console=plain --init-script /tmp/metals7824571691792024069/init-script.gradle bloopInstall'
+Jan 09, 2026 10:28:32 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.09 10:31:18 INFO  > Task :configureBloopInstall
+2026.01.09 10:31:30 INFO  > Task :bloopInstall
+2026.01.09 10:31:30 INFO  
+2026.01.09 10:31:30 INFO  [Incubating] Problems report is available at: file:///home/jgomez/Desktop/spring-learn/contract-rest-service/build/reports/problems/problems-report.html
+2026.01.09 10:31:30 INFO  
+2026.01.09 10:31:30 INFO  Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+2026.01.09 10:31:30 INFO  
+2026.01.09 10:31:30 INFO  You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+2026.01.09 10:31:30 INFO  
+2026.01.09 10:31:30 INFO  For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+2026.01.09 10:31:30 INFO  
+2026.01.09 10:31:30 INFO  BUILD SUCCESSFUL in 2m 59s
+2026.01.09 10:31:30 INFO  2 actionable tasks: 2 executed
+2026.01.09 10:31:30 INFO  Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.2.1/userguide/configuration_cache_enabling.html
+2026.01.09 10:31:30 INFO  time: ran 'gradle bloopInstall' in 2m59s
+2026.01.09 10:31:30 INFO  Disconnecting from Bloop session...
+2026.01.09 10:31:30 INFO  Shut down connection with build server.
+2026.01.09 10:31:30 INFO  Attempting to connect to the build server...
+2026.01.09 10:31:30 INFO  Found a Bloop server running
+2026.01.09 10:31:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jgomez/Desktop/spring-learn/contract-rest-service/.metals/bsp.trace.json or /home/jgomez/.cache/metals/bsp.trace.json
+2026.01.09 10:31:30 INFO  time: Connected to build server in 0.12s
+2026.01.09 10:31:30 INFO  Connected to Build server: Bloop v2.0.17
+2026.01.09 10:31:35 INFO  time: indexed workspace in 4.76s
+2026.01.09 10:31:35 INFO  skipping build import with status 'Installed'
+2026.01.09 10:34:09 INFO  skipping build import with status 'Installed'
+2026.01.09 10:34:11 INFO  skipping build import with status 'Installed'
+2026.01.09 10:35:24 INFO  skipping build import with status 'Installed'
+2026.01.09 10:35:35 INFO  skipping build import with status 'Installed'
+2026.01.09 10:40:45 INFO  skipping build import with status 'Installed'
+2026.01.09 10:46:46 INFO  Shutting down server
+2026.01.09 10:46:46 INFO  shutting down Metals
+2026.01.09 10:46:46 INFO  Shut down connection with build server.
+2026.01.09 10:46:46 INFO  Exiting server
+2026.01.09 10:52:33 INFO  Started: Metals version 1.6.4 in folders '/home/jgomez/Desktop/spring-learn/contract-rest-service' for client Visual Studio Code 1.107.1.
+2026.01.09 10:52:33 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.09 10:52:33 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/hello/BaseClass.java. Using fallback presentation compiler.
+2026.01.09 10:52:34 INFO  Attempting to connect to the build server...
+2026.01.09 10:52:34 INFO  Found a Bloop server running
+2026.01.09 10:52:34 INFO  no build target found for /home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/hello/BaseClass.java. Using fallback presentation compiler.
+2026.01.09 10:52:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/jgomez/Desktop/spring-learn/contract-rest-service/.metals/bsp.trace.json or /home/jgomez/.cache/metals/bsp.trace.json
+2026.01.09 10:52:34 INFO  time: Connected to build server in 0.27s
+2026.01.09 10:52:34 INFO  Connected to Build server: Bloop v2.0.17
+2026.01.09 10:52:34 INFO  time: Imported build in 0.16s
+2026.01.09 10:52:36 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/hello/BaseClass.java]
+2026.01.09 10:52:36 INFO  QDox parse error in file:///home/jgomez/Desktop/spring-learn/contract-rest-service/src/test/java/com/nodoit/contract_rest_service/hello/BaseClass.java (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-service/.metals/.reports/metals-full/2026-01-09/r_qdox-error_(contract-rest-service-test)_10-52-36-796.md")
+2026.01.09 10:52:36 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.01.09 10:52:36 INFO  time: indexed workspace in 2.48s
+2026.01.09 10:52:37 INFO  compiling contract-rest-service-test (1 java source)
+2026.01.09 10:52:37 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:52:37 INFO  time: compiled contract-rest-service-test in 0.48s
+Jan 09, 2026 10:53:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+2026.01.09 10:53:28 INFO  compiling contract-rest-service-test (1 java source)
+2026.01.09 10:53:28 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:53:28 INFO  time: compiled contract-rest-service-test in 0.73s
+Jan 09, 2026 10:53:42 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.01.09 10:53:44 INFO  compiling contract-rest-service-test (1 java source)
+2026.01.09 10:53:44 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:53:44 INFO  time: compiled contract-rest-service-test in 0.79s
+2026.01.09 10:53:55 INFO  compiling contract-rest-service-test (1 java source)
+2026.01.09 10:53:55 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:53:55 INFO  time: compiled contract-rest-service-test in 0.72s
+2026.01.09 10:54:16 INFO  compiling contract-rest-service-test (1 java source)
+2026.01.09 10:54:16 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:54:16 INFO  time: compiled contract-rest-service-test in 0.73s
+2026.01.09 10:54:20 INFO  compiling contract-rest-service-test (1 java source)
+2026.01.09 10:54:20 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:54:20 INFO  time: compiled contract-rest-service-test in 0.68s
+2026.01.09 10:55:26 INFO  Created report: Optional[file:///home/jgomez/Desktop/spring-learn/contract-rest-service/src/main/java/com/nodoit/contract_rest_service/controller/PersonRestController.java]
+2026.01.09 10:55:26 INFO  QDox parse error in file:///home/jgomez/Desktop/spring-learn/contract-rest-service/src/main/java/com/nodoit/contract_rest_service/controller/PersonRestController.java (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-service/.metals/.reports/metals-full/2026-01-09/r_qdox-error_(contract-rest-service)_10-55-26-004.md")
+2026.01.09 10:55:26 INFO  QDox parse error in file:///home/jgomez/Desktop/spring-learn/contract-rest-service/src/main/java/com/nodoit/contract_rest_service/controller/PersonRestController.java (full report at: "/home/jgomez/Desktop/spring-learn/contract-rest-service/.metals/.reports/metals-full/2026-01-09/r_qdox-error_(contract-rest-service)_10-55-26-004.md")
+2026.01.09 10:55:26 INFO  compiling contract-rest-service (1 java source)
+2026.01.09 10:55:26 WARN  javac: [options] system modules path not set in conjunction with -source 17
+2026.01.09 10:55:26 INFO  time: compiled contract-rest-service in 0.59s
+2026.01.09 10:55:39 INFO  compiling contract-rest-service (1 java source)
+2026.01.09 10:55:39 WARN  Invalid text document uri received from build server: file:///home/jgomez/.local/share/scalacli/bloop/warning:%5Boptions%5D%20system%20modules%20path%20not%20set%20in%20conjunction%20with%20-source%2017%0A/home/jgomez/Desktop/spring-learn/contract-rest-service/src/main/java/com/nodoit/contract_rest_service/controller/PersonRestController.java
+2026.01.09 10:55:39 INFO  BSP server:  error: package org.springframework.web.bind.annotation does not exist
+2026.01.09 10:55:39 WARN  javac exited with exit code 1
+2026.01.09 10:55:39 INFO  time: compiled contract-rest-service in 0.69s
+2026.01.09 10:55:42 INFO  compiling contract-rest-service (1 java source)
+2026.01.09 10:55:42 WARN  Invalid text document uri received from build server: file:///home/jgomez/.local/share/scalacli/bloop/warning:%5Boptions%5D%20system%20modules%20path%20not%20set%20in%20conjunction%20with%20-source%2017%0A/home/jgomez/Desktop/spring-learn/contract-rest-service/src/main/java/com/nodoit/contract_rest_service/controller/PersonRestController.java
+2026.01.09 10:55:42 INFO  BSP server:  error: package org.springframework.web.bind.annotation does not exist
+2026.01.09 10:55:42 WARN  javac exited with exit code 1
+2026.01.09 10:55:42 WARN  Invalid text document uri received from build server: file:///home/jgomez/.local/share/scalacli/bloop/warning:%5Boptions%5D%20system%20modules%20path%20not%20set%20in%20conjunction%20with%20-source%2017%0A/home/jgomez/Desktop/spring-learn/contract-rest-service/src/main/java/com/nodoit/contract_rest_service/controller/PersonRestController.java
+2026.01.09 10:55:42 INFO  time: compiled contract-rest-service in 0.66s
+2026.01.09 10:56:00 INFO  Shutting down server
+2026.01.09 10:56:00 INFO  shutting down Metals
+2026.01.09 10:56:00 INFO  Shut down connection with build server.
+2026.01.09 10:56:00 INFO  Exiting server

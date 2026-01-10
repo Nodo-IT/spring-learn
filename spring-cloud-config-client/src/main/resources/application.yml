@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: spring-cloud-config-client
+# Active profile (examples: dev, default, prod, etc.)
+  profiles:
+    active: dev
+
+# Configuration server location in localhost:8888
+  config:
+    import: optional:configserver:http://localhost:8888
+
+# Actuator config to refresh
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
